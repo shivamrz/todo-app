@@ -1,6 +1,6 @@
 const mongoose=require("mongoose");
 // mongodb+srv://Derek:Derek18%40@cluster0.q6xhn.mongodb.net/
-mongoose.connect("mongodb+srv://Derek:Derek18%40@cluster0.q6xhn.mongodb.net/todos");
+mongoose.connect("mongodb+srv://Derek:Derek18%40@cluster0.q6xhn.mongodb.net/newTodos");
 
 const todoSchema=mongoose.Schema({
     title: String,
